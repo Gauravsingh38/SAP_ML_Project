@@ -6,6 +6,9 @@ import plotly.graph_objects as go
 import plotly.express as px
 import joblib
 
+import sklearn
+print(sklearn.__version__)
+
 # ---------------- MODEL LOAD ----------------
 
 
