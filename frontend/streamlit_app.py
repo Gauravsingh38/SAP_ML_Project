@@ -176,7 +176,7 @@ if st.button("🚀 Predict Strength"):
         # =========================================================
         st.subheader("📈 Strength vs Age")
 
-        age_range = [7, 14, 28, 56, 90]
+        age_range = [7, 14, 28, 90]
 
         temp_df = pd.DataFrame({
             'SAP_%': sap,
