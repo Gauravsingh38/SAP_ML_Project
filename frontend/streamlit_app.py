@@ -8,7 +8,18 @@ import joblib
 
 # ---------------- MODEL LOAD ----------------
 
-MODEL_PATH = "../ML_Model/concrete_strength_model.pkl"
+
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MODEL_PATH = os.path.join(
+    BASE_DIR,
+    "..",
+    "ML_Model",
+    "concrete_strength_model.pkl"
+)
+
 model = joblib.load(MODEL_PATH)
 
 # ---------------- PAGE CONFIG ----------------
