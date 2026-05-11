@@ -79,7 +79,7 @@ wc = st.sidebar.slider(
 
 age = st.sidebar.selectbox(
     "Age (days)",
-    [7, 14, 28, 56, 90]
+    [7, 14, 28, 90]
 )
 
 weight = st.sidebar.number_input(
